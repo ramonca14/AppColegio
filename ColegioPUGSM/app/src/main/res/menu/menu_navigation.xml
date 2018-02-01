@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/webItem"
+        android:icon="@drawable/ic_web"
+        android:title="Web Site" />
+    <item
+        android:id="@+id/evaItem"
+        android:icon="@drawable/ic_eva"
+        android:title="Eva UNLaR" />
+    <item
+        android:id="@+id/colegioItem"
+        android:icon="@drawable/ic_colegio"
+        android:title="CPUGSM" />
+
+    <item
+        android:id="@+id/Itemcalendario"
+        android:icon="@drawable/ic_calendario"
+        android:title="Calendario" />
+    <item
+        android:id="@+id/Itemcontacto"
+        android:icon="@drawable/ic_phone"
+        android:title="Contacto"/>
+
+</menu>

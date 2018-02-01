@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">C.P.U.G.S.M.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="unlartext">Pagina Web oficial de la Universidad Nacional de La Rioja</string>
+
+    <string name="colegiotext">Colegio Pre Universitario Gral. San Martin</string>
+    <string name="calendariotext">
+    <b> CALENDARIO ACADÉMICO 2.018</b>
+
+    </string>
+    <string name="llamartext">llamar al Colegio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
