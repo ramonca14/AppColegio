@@ -73,6 +73,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     return true;
 
                 }else if (item.getItemId()==R.id.Itemcalendario){
+                    Uri uriUrl = Uri.parse("https://www.unlar.edu.ar/index.php/component/content/article?id=502");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uriUrl);
+                    startActivity(intent);
+
                     infotextView.setText(R.string.calendariotext);
                     return true;
                 }else if (item.getItemId()==R.id.Itemcontacto){
