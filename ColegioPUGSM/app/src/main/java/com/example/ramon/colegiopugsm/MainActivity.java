@@ -5,10 +5,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
-import android.view.View;
+import android.app.Fragment;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -19,16 +17,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.TextView;
 import android.widget.Toast;
 
 
+
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
 {
-
-    private BottomNavigationView bottomNavigationView;
-    private TextView infotextView;
-
+    public static String weburl = "http://cpugsm.unlar.edu.ar";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,42 +42,47 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         //para el logo del bar;
-        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
+        getSupportActionBar().setLogo(R.mipmap.ic_logobar);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
-
-        infotextView = (TextView) findViewById(R.id.txtview);
+        BottomNavigationView bottomNavigationView;
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.BottonNavigationView);
-
+        bottomNavigationView.setSelectedItemId(R.id.colegioItem);
+        Toast.makeText(this, "Cargando....", Toast.LENGTH_LONG).show();
+        WebViewFragment webViewFragment = new WebViewFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.idcontenido, webViewFragment).commit();
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected (@NonNull MenuItem item) {
                 //esto se ejecuta si se selecciona un item del menu inferior
-                if (item.getItemId()==R.id.webItem){
-                    //WebView webView = (WebView) findViewById(R.id.webview);
-                    //webView.loadUrl("https://www.unlar.edu.ar/");
 
-                  Uri uriUrl = Uri.parse("https://www.unlar.edu.ar/");
-                  Intent intent = new Intent(Intent.ACTION_VIEW, uriUrl);
-                  startActivity(intent);
+                if (item.getItemId()==R.id.webItem){
+                    weburl = "http://www.unlar.edu.ar";
+                    WebViewFragment webViewFragment = new WebViewFragment();
+                    getSupportFragmentManager().beginTransaction().add(R.id.idcontenido, webViewFragment).commit();
                     return true;
                 }else if (item.getItemId()==R.id.evaItem){
-                    infotextView.setText(R.string.unlartext);
+                    weburl = "http://catedras.unlar.edu.ar";
+                    WebViewFragment webViewFragment = new WebViewFragment();
+                    getSupportFragmentManager().beginTransaction().add(R.id.idcontenido, webViewFragment).commit();
                     return true;
                 }else if (item.getItemId()==R.id.colegioItem){
-
-                    infotextView.setText(R.string.colegiotext);
+                    weburl = "http://cpugsm.unlar.edu.ar";
+                    WebViewFragment webViewFragment = new WebViewFragment();
+                    getSupportFragmentManager().beginTransaction().add(R.id.idcontenido, webViewFragment).commit();
                     return true;
 
                 }else if (item.getItemId()==R.id.Itemcalendario){
-                    Uri uriUrl = Uri.parse("https://www.unlar.edu.ar/index.php/component/content/article?id=502");
-                    Intent intent = new Intent(Intent.ACTION_VIEW, uriUrl);
-                    startActivity(intent);
-
-                    infotextView.setText(R.string.calendariotext);
+                    weburl = "http://cpugsm.unlar.edu.ar";
+                    WebViewFragment webViewFragment = new WebViewFragment();
+                    getSupportFragmentManager().beginTransaction().add(R.id.idcontenido, webViewFragment).commit();
                     return true;
+
                 }else if (item.getItemId()==R.id.Itemcontacto){
-                    infotextView.setText(R.string.llamartext);
+                    weburl = "http://cpugsm.unlar.edu.ar";
+                    WebViewFragment webViewFragment = new WebViewFragment();
+                    getSupportFragmentManager().beginTransaction().add(R.id.idcontenido, webViewFragment).commit();
+
                     return true;
                 }
 
@@ -93,14 +95,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
+
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
+        DrawerLayout drawer =  findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
         }
+
+
     }
 
     @Override
@@ -128,15 +134,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        //* Handle navigation view item clicks here.
+
+        //* clic en menu lateral izquierdo.
         int id = item.getItemId();
-        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentManager fm = getSupportFragmentManager();
         if (id == R.id.nav_ins) {
-            //  fragmentManager.beginTransaction().replace(R.id.flprincipal, new android.support.v4.app.InstitucionFrgm()).commit;
+            fm.beginTransaction().replace(R.id.idcontenido,new InstitucionFragment()).commit();
             Toast.makeText(this, "Informacion de la Institucion", Toast.LENGTH_LONG).show();
+
         } else if (id == R.id.nav_aut) {
+            fm.beginTransaction().replace(R.id.idcontenido,new AutoridadesFragment()).commit();
             Toast.makeText(this, "Autoridades de la Institucion", Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_proyect) {
+            fm.beginTransaction().replace(R.id.idcontenido,new ProyectosFragment()).commit();
             Toast.makeText(this, "Proyectos Institucionales", Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_modal) {
             Toast.makeText(this, "Conoce las diferentes modalidades", Toast.LENGTH_LONG).show();

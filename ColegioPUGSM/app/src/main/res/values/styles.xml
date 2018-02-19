@@ -7,6 +7,13 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- INI AGREGADO -->
+        <!-- Ocultamos la barra de titulo -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- FIN AGREGADO -->
+
+
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -17,15 +24,5 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
-    <style name="calendariotext">
-
-        color: red;
-
-        background-color: red;
-
-        border-color: red;
-
-          </style>
 
 </resources>

@@ -7,23 +7,36 @@
     android:layout_height="match_parent"
     android:paddingTop="?attr/actionBarSize"
     tools:context="com.example.ramon.colegiopugsm.MainActivity"
+
     >
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_marginBottom="@dimen/nav_margin_bot"
-        >
-
-        <RelativeLayout
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/id_webview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/idcontenido">
-        </RelativeLayout>
+            android:layout_marginBottom="@dimen/nav_margin_bot"
+            >
+        </WebView>
+
     </FrameLayout>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/nav_margin_bot"
+            android:id="@+id/idcontenido">
+
+        </LinearLayout>
+    </FrameLayout>
 
 
     <FrameLayout
