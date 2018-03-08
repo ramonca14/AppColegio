@@ -4,16 +4,97 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Configuración</string>
 
     <string name="unlartext">Pagina Web oficial de la Universidad Nacional de La Rioja</string>
 
     <string name="colegiotext">Colegio Pre Universitario Gral. San Martin</string>
-    <string name="calendariotext">
-    <b> CALENDARIO ACADÉMICO 2.018</b>
 
-    </string>
     <string name="llamartext">llamar al Colegio</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre_director">Prof. Lic. Roberto Contreras </string>
+    <string name="nombre_subdirector">Prof. Lic. Mónica Cappettini </string>
+
+
+    <string name="appbar_scrolling_view_behavior">SCROLLING VIEW BEHAVIOR </string>
+
+    <string name="mision">
+Incentivar al personal para el trabajo en equipo, fomentando el compromiso organizacional, de manera tal que,
+     coadyuve a la formación integral de la personalidad de los alumnos y al desarrollo de sus competencias;
+     propiciando un clima colaborativo de trabajo, cuyo eje transversal sea la promoción de los valores humanos.
+</string>
+    <string name="visionn">
+Ser una Institución Educativa líder a nivel Nacional, que propicie aprendizajes de calidad y fomente el compromiso social.
+    </string>
+
+    <string name="obj_general">
+Posicionar al Colegio con estándares de excelencia en gestión educativa y organizacional.
+    </string>
+
+    <string name="obj_especifico">
+Promover la transversalidad comunicacional.
+Fomentar la flexibilidad organizacional.
+Promover la adaptación al entorno cambiante.
+
+Desarrollar Políticas de Recursos Humanos que propicien calidad en reclutamiento y selección de personal idóneo, para el ejercicio docente orientado a los adolescentes.<n />
+Realizar evaluaciones de desempeño docente a través de Propuestas, Informes y Programas de Cátedra.<n />
+Fomentar el trabajo en equipo en preceptores.
+</string>
+    <string name="valores">
+    Los valores que caracterizan a la institución son:
+Compromiso
+Respeto
+Solidaridad
+Valor de la Vida Humana
+Disciplina
+Compañerismo
+Generosidad
+Responsabilidad
+Veracidad
+Justicia
+Paz Social</string>
+
+
+    <string name="institucion_string" color="#c91212">“El Colegio  Secundario  Provincial”.
+
+         La Institución fue creada por el  Decreto Provincial Nº 2.997/79, con el nombre de “Colegio Secundario Provincial”, y desde su instancia fundacional se enfocó en una problemática que aún es de rigurosa actualidad: la articulación de los estudios del nivel medio con el universitario, brindado la necesaria preparación  y competencias para el cursado de estos últimos.
+     Inserto en la órbita jurisdiccional  de la Secretaría de Cultura y Educación de la Provincia de la Rioja, el Colegio inició sus actividades el día 7 de abril del año 1980, con la  misión de formar a los  adolescentes, de la ciudad Capital, y también del  Interior provincial a quienes se les brindaba alojamiento en el internado con servicio de comedor incluido, posibilitándoles  de tal modo el acceso a una educación de alto nivel pedagógico.
+
+ “El Colegio Universitario Provincial de La Rioja”
+
+                   Por  Ley   Provincial  Nº  4.045/81 se dispone el cambio de la denominación  de  “Colegio Secundario Provincial” por  la de “Colegio Universitario Provincial de La Rioja”, con apoyo  financiero de la  Universidad Provincial de La Rioja, empero  subsistía  la dependencia  académica  de la  Secretaría de Cultura y Educación de la Provincia de la Rioja.
+         El  Plan de  Estudios vigente en la época  articulaba un Ciclo Preparatorio, de 2 (dos)  años de duración; un Ciclo Formativo de (4) cuatro años; y  un Ciclo Orientado de 2(dos) años. Cumplimentando los mismos, el Alumno egresaba con el Título de Bachiller.
+
+ Colegio Universitario “Gral. San Martín “
+         Mediante la  Ley Provincial  Ley Nº 4.130/82, el Colegio se transfiere a la Universidad Provincial de La Rioja, con una nueva denominación: Colegio Universitario “Gral. San Martín”, siendo los estudios de nivel preuniversitario, según lo puntualizado por  el Lic. Ramón Díaz en su  “Historia de la Universidad de La Rioja”,  (Pág. XVI, Edit. Eudelar, Año 1997).
+         Por la misma Ley Provincial Nº 4.130/82 se  dispuso que la institución dependa jurisdiccionalmente  del Rectorado de la U.P.L.R, y asimismo, que el Colegio adopte la modalidad de Bachillerato Común, estructurado  en un Ciclo Básico de tres (3) años y un Ciclo Superior de dos (2) años.
+ El Colegio Pre-Universitario en la Ciudad Universitaria de la Ciencia y de la Técnica.
+         La “Ciudad Universitaria de la Ciencia y de la Técnica” de la Universidad Nacional de La Rioja fue inaugurada el día 11 de diciembre del año 1998 y posee más de 58.000 m2 de infraestructura, que se distribuyen en sectores destinados a la Gestión, Administración, Docencia, Investigación y Extensiónademás de la enseñanza Pre-Universitaria, a través del “Colegio Pre- Universitario Gral. San Martín”.
+         El Colegio cuenta con modernas y confortables instalaciones, que se distribuyen en Cinco Módulos, que fueron construidos según exigencias de estándares  internacionales, y un Salón de Usos Múltiples, con capacidad para más de  setecientas  personas.
+         Tres de los Módulos están destinados al dictado de clases y el cuarto Módulo es apto para la realización de  las actividades propias de los Espacios Curriculares Optativos, con Aulas de Laboratorios de Biología, Informática, Pintura, Escultura, Nutrición, Folklore, Sala de Audio, etc.
+         El restante Módulo está destinado a las oficinas de la Dirección, Vice-Dirección, Sala de Profesores,  Biblioteca, y Oficinas Administrativas.
+
+</string>
+
+    <string name="modalidades_string" color="#c91212">“El Colegio  Secundario  Provincial”.
+
+         La Institución fue creada por el  Decreto Provincial Nº 2.997/79, con el nombre de “Colegio Secundario Provincial”, y desde su instancia fundacional se enfocó en una problemática que aún es de rigurosa actualidad: la articulación de los estudios del nivel medio con el universitario, brindado la necesaria preparación  y competencias para el cursado de estos últimos.
+     Inserto en la órbita jurisdiccional  de la Secretaría de Cultura y Educación de la Provincia de la Rioja, el Colegio inició sus actividades el día 7 de abril del año 1980, con la  misión de formar a los  adolescentes, de la ciudad Capital, y también del  Interior provincial a quienes se les brindaba alojamiento en el internado con servicio de comedor incluido, posibilitándoles  de tal modo el acceso a una educación de alto nivel pedagógico.
+
+ “El Colegio Universitario Provincial de La Rioja”
+
+                   Por  Ley   Provincial  Nº  4.045/81 se dispone el cambio de la denominación  de  “Colegio Secundario Provincial” por  la de “Colegio Universitario Provincial de La Rioja”, con apoyo  financiero de la  Universidad Provincial de La Rioja, empero  subsistía  la dependencia  académica  de la  Secretaría de Cultura y Educación de la Provincia de la Rioja.
+         El  Plan de  Estudios vigente en la época  articulaba un Ciclo Preparatorio, de 2 (dos)  años de duración; un Ciclo Formativo de (4) cuatro años; y  un Ciclo Orientado de 2(dos) años. Cumplimentando los mismos, el Alumno egresaba con el Título de Bachiller.
+
+ Colegio Universitario “Gral. San Martín “
+         Mediante la  Ley Provincial  Ley Nº 4.130/82, el Colegio se transfiere a la Universidad Provincial de La Rioja, con una nueva denominación: Colegio Universitario “Gral. San Martín”, siendo los estudios de nivel preuniversitario, según lo puntualizado por  el Lic. Ramón Díaz en su  “Historia de la Universidad de La Rioja”,  (Pág. XVI, Edit. Eudelar, Año 1997).
+         Por la misma Ley Provincial Nº 4.130/82 se  dispuso que la institución dependa jurisdiccionalmente  del Rectorado de la U.P.L.R, y asimismo, que el Colegio adopte la modalidad de Bachillerato Común, estructurado  en un Ciclo Básico de tres (3) años y un Ciclo Superior de dos (2) años.
+ El Colegio Pre-Universitario en la Ciudad Universitaria de la Ciencia y de la Técnica.
+         La “Ciudad Universitaria de la Ciencia y de la Técnica” de la Universidad Nacional de La Rioja fue inaugurada el día 11 de diciembre del año 1998 y posee más de 58.000 m2 de infraestructura, que se distribuyen en sectores destinados a la Gestión, Administración, Docencia, Investigación y Extensiónademás de la enseñanza Pre-Universitaria, a través del “Colegio Pre- Universitario Gral. San Martín”.
+         El Colegio cuenta con modernas y confortables instalaciones, que se distribuyen en Cinco Módulos, que fueron construidos según exigencias de estándares  internacionales, y un Salón de Usos Múltiples, con capacidad para más de  setecientas  personas.
+         Tres de los Módulos están destinados al dictado de clases y el cuarto Módulo es apto para la realización de  las actividades propias de los Espacios Curriculares Optativos, con Aulas de Laboratorios de Biología, Informática, Pintura, Escultura, Nutrición, Folklore, Sala de Audio, etc.
+         El restante Módulo está destinado a las oficinas de la Dirección, Vice-Dirección, Sala de Profesores,  Biblioteca, y Oficinas Administrativas.
+
+</string>
+    <string name="title_activity_list">Contactos</string>
 </resources>

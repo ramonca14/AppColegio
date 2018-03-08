@@ -1,18 +1,32 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ramon.colegiopugsm.InstitucionFragment"
+    android:orientation="vertical"
+    tools:context="com.example.ramon.colegiopugsm.InstitucionFragment">
 
-    >
-
-
-    <TableLayout
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorFondoContenido"
-        android:layout_marginBottom="@dimen/nav_margin_bot">
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dim_cargo">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dim_cargo"
+            tools:ignore="UselessParent">
+
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -21,20 +35,19 @@
             android:gravity="center">
 
             <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:foregroundGravity="center">
+                android:foregroundGravity="center"
+                tools:ignore="UselessParent">
 
-                <ImageButton
-                    android:id="@+id/imageButton"
-                    android:layout_width="240dp"
-                    android:layout_height="300dp"
+                <ImageView
+                    android:layout_width="180sp"
+                    android:layout_height="120sp"
                     android:layout_gravity="top|center"
-
-                    android:scaleType="centerCrop"
-                    android:contentDescription="Director de Colegio"
-                    />
+                    android:background="@mipmap/ic_colegio"
+                    android:scaleType="centerCrop" />
             </FrameLayout>
         </TableRow>
 
@@ -44,34 +57,220 @@
             android:layout_gravity="center"
             android:gravity="center">
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Colegio Preuniversitario Gral. San Martin"
-                android:layout_gravity="center"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                />
         </TableRow>
 
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Proyecto Institucional"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="@dimen/dim_titulo" />
+            </TableRow>
+<LinearLayout android:orientation="vertical">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:textSize="@dimen/dim_cargo"
+                android:textStyle="bold">
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Universidad Nacional de La Rioja"
-            android:gravity="center"
-                        android:textSize="18sp"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Misión"
+                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                    android:textSize="@dimen/dim_cargo"
+                    android:textStyle="bold" />
+            </TableRow>
 
-            />
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </TableLayout>
-</FrameLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/mision"
+                    android:textSize="@dimen/dim_cargo"
+                    android:textStyle="bold"
+                    android:textAlignment="gravity"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp" />
+</LinearLayout>
+            <LinearLayout android:orientation="vertical">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:textSize="@dimen/dim_cargo"
+                android:textStyle="bold">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Visión"
+                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                    android:textSize="@dimen/dim_cargo"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/visionn"
+                    android:textSize="@dimen/dim_cargo"
+                    android:textStyle="bold"
+                    android:textAlignment="gravity"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                tools:ignore="UselessLeaf" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Objetivos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="@dimen/dim_subtitulo" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:textSize="@dimen/dim_cargo"
+                android:textStyle="bold">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Generales"
+                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                    android:textSize="@dimen/dim_cargo"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/obj_general"
+                    android:textSize="@dimen/dim_cargo"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                tools:ignore="UselessLeaf" />
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:textSize="@dimen/dim_cargo"
+                android:textStyle="bold">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Específicos"
+                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                    android:textSize="@dimen/dim_cargo"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/obj_especifico"
+                    android:textSize="@dimen/dim_cargo"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Valores"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="@dimen/dim_subtitulo" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:textSize="@dimen/dim_cargo"
+                android:textStyle="bold">
+             </TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/valores"
+                android:textSize="@dimen/dim_cargo"
+                android:textStyle="bold" />
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp" />
+
+
+
+
+        </TableLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/ic_fondoinicio"
     >
 
 
@@ -11,22 +12,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@color/colorFondoSplash">
+        android:layout_marginTop="100dp"
+       >
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-
-            android:layout_marginTop="120dp"
-            android:contentDescription="logoColegio"
-            app:srcCompat="@drawable/logosanmartin" />
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/ic_logo"/>
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Colegio Pre Universitario Gral. San Martín"
+            android:text="@string/colegiotext"
             android:textAlignment="center"
             android:textColor="#cfdbe9"
             android:textSize="30sp" />

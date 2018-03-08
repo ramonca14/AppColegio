@@ -5,7 +5,7 @@
     <item
         android:id="@+id/webItem"
         android:icon="@drawable/ic_web"
-        android:title="Web Site" />
+        android:title="Web Colegio" />
     <item
         android:id="@+id/evaItem"
         android:icon="@drawable/ic_eva"
