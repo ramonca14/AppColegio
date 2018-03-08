@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     //WebViewFragment webViewFragment = new WebViewFragment();
 
                   ContactosFragment viewContactosFragment = new ContactosFragment();
-                    getSupportFragmentManager().beginTransaction().replace(R.id.idcontenido,  viewContactosFragment).commit();
+                  getSupportFragmentManager().beginTransaction().replace(R.id.idcontenido,  viewContactosFragment).commit();
 
                    // Intent intent = new Intent(MainActivity.this, ListActivity.class);
                 //startActivity(intent);

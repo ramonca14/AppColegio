@@ -11,10 +11,6 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-/**
- * Created by Ramon on 12/2/2018.
- */
-
 public class WebViewFragment extends Fragment {
     private WebView webView;
 
@@ -32,8 +28,7 @@ webView.setWebViewClient(new WebViewClient());
 webView.loadUrl(MainActivity.weburl);
 return view;
     }
-     public void onBackPressed() {
 
-           }
+
 }
 

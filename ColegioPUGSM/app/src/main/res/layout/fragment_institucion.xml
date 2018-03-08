@@ -21,256 +21,113 @@
             android:orientation="vertical"
             android:layout_margin="@dimen/dim_cargo">
 
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="@dimen/dim_cargo"
-            tools:ignore="UselessParent">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:foregroundGravity="center"
-            android:gravity="center">
-
-            <FrameLayout
-
+            <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:foregroundGravity="center"
+                android:layout_marginBottom="@dimen/dim_cargo"
                 tools:ignore="UselessParent">
 
-                <ImageView
-                    android:layout_width="180sp"
-                    android:layout_height="120sp"
-                    android:layout_gravity="top|center"
-                    android:background="@mipmap/ic_colegio"
-                    android:scaleType="centerCrop" />
-            </FrameLayout>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:gravity="center">
-
-        </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:foregroundGravity="center"
-                android:gravity="center">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Proyecto Institucional"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="@dimen/dim_titulo" />
-            </TableRow>
-<LinearLayout android:orientation="vertical">
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="start"
-                android:textSize="@dimen/dim_cargo"
-                android:textStyle="bold">
-
-                <TextView
+                <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Misión"
-                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
-                    android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold" />
-            </TableRow>
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:gravity="center">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:gravity="center">
+                    <FrameLayout
 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        tools:ignore="UselessParent">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/mision"
-                    android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"/>
-            </TableRow>
+                        <ImageView
+                            android:layout_width="180sp"
+                            android:layout_height="120sp"
+                            android:layout_gravity="top|center"
+                            android:background="@mipmap/ic_colegio"
+                            android:scaleType="centerCrop" />
+                    </FrameLayout>
+                </TableRow>
 
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="5dp" />
-</LinearLayout>
-            <LinearLayout android:orientation="vertical">
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="start"
-                android:textSize="@dimen/dim_cargo"
-                android:textStyle="bold">
-
-                <TextView
+                <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Visión"
-                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
-                    android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold" />
-            </TableRow>
+                    android:layout_gravity="center"
+                    android:gravity="center">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:gravity="center">
-                <TextView
+                </TableRow>
+
+                <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/visionn"
-                    android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"/>
-            </TableRow>
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:gravity="center">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="5dp"
-                tools:ignore="UselessLeaf" />
-            </LinearLayout>
-            <LinearLayout android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Objetivos"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="@dimen/dim_subtitulo" />
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="start"
-                android:textSize="@dimen/dim_cargo"
-                android:textStyle="bold">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Generales"
-                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
-                    android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Institución"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="@dimen/dim_titulo" />
+                </TableRow>
+                <LinearLayout android:orientation="vertical">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:textSize="@dimen/dim_cargo"
+                        android:textStyle="bold">
 
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/obj_general"
-                    android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold" />
-            </TableRow>
-
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="5dp"
-                tools:ignore="UselessLeaf" />
-            </LinearLayout>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="start"
-                android:textSize="@dimen/dim_cargo"
-                android:textStyle="bold">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Específicos"
-                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
-                    android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:gravity="center">
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/obj_especifico"
-                    android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold" />
-            </TableRow>
-
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="5dp" />
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Valores"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="@dimen/dim_subtitulo" />
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="start"
-                android:textSize="@dimen/dim_cargo"
-                android:textStyle="bold">
-             </TableRow>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/valores"
-                android:textSize="@dimen/dim_cargo"
-                android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Historia"
+                            android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                            android:textSize="@dimen/dim_cargo"
+                            android:textStyle="bold" />
 
 
 
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="5dp" />
 
 
 
 
-        </TableLayout>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+                        <com.example.ramon.colegiopugsm.JustifyTextView
+                            android:layout_width="331dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/premiumCreditsDescTextView"
+                            android:text="@string/institucion_string"
+                            android:layout_marginTop="8dip"
+                            android:layout_marginLeft="7dp"
+                            android:paddingLeft="5dp"
+
+                            />
+
+                    </TableRow>
+
+
+                </LinearLayout>
+
+
+            </TableLayout>
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </LinearLayout>
+
+
+
