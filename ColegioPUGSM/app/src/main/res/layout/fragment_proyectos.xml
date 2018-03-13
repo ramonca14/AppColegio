@@ -71,8 +71,10 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Proyecto Institucional"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="@dimen/dim_titulo" />
+
+                    android:textSize="@dimen/dim_titulo"
+                    android:textAlignment="inherit"/>
+
             </TableRow>
 <LinearLayout android:orientation="vertical">
             <TableRow
@@ -102,9 +104,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="@string/mision"
+                    android:textAlignment="inherit"
                     android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"/>
+                    android:textStyle="bold" />
             </TableRow>
 
 

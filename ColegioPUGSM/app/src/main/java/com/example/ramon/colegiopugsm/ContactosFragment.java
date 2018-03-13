@@ -25,12 +25,9 @@ public class ContactosFragment extends Fragment {
           //      "Laboratorio: 44525470", "Biblioteca: 44525470", "Administración: 44525470"};
 
         //for (int i = 1; i <= 20; i++) {
-          list.add("Dirección: 3804457096");
-          list.add("Preceptoria: 44525470");
-          list.add("Secretaria: 44525470");
-          list.add("Gabinete: 44525470");
-          list.add("Laboratorio: 44525470");
-          list.add("Biblioteca: 44525470");
+          list.add("Dirección:   4457096");
+          list.add("Preceptoria: 4457097");
+          list.add("Secretaria:  4457387");
 
 
         ListView listView = view.findViewById(R.id.listContactos);

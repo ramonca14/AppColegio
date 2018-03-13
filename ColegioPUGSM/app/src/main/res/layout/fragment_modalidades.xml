@@ -14,11 +14,188 @@
         android:background="@color/colorFondoContenido"
         >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/dim_cargo"
-            android:text="@string/modalidades_string" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dim_cargo">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dim_cargo"
+                tools:ignore="UselessParent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:gravity="center">
+
+                    <FrameLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        tools:ignore="UselessParent">
+
+                        <ImageView
+                            android:layout_width="180sp"
+                            android:layout_height="120sp"
+                            android:layout_gravity="top|center"
+                            android:background="@mipmap/ic_modalidades"
+                            android:scaleType="centerCrop" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Modalidades"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="@dimen/dim_titulo" />
+                </TableRow>
+                <LinearLayout android:orientation="vertical">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:textSize="@dimen/dim_cargo"
+                        android:textStyle="bold">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Maestro Mayor de Obra"
+                            android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                            android:textSize="@dimen/dim_cargo"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/descTextView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dip"
+                            android:text="@string/modalidades_string"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/dim_cargo" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:textSize="@dimen/dim_cargo"
+                        android:textStyle="bold">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Ciencias Naturales"
+                            android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                            android:textSize="@dimen/dim_cargo"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/modalidades_string"
+                            android:textSize="@dimen/dim_cargo"
+                            android:textStyle="bold"
+                            android:textAlignment="gravity"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        tools:ignore="UselessLeaf" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical">
+                       <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:textSize="@dimen/dim_cargo"
+                        android:textStyle="bold">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Gestion y Administracion de Empresas"
+                            android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                            android:textSize="@dimen/dim_cargo"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/modalidades_string"
+                            android:textSize="@dimen/dim_cargo"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        tools:ignore="UselessLeaf" />
+                </LinearLayout>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+
+
 
     </android.support.v4.widget.NestedScrollView>
 

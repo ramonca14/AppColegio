@@ -90,15 +90,6 @@
                             android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
                             android:textSize="@dimen/dim_cargo"
                             android:textStyle="bold" />
-
-
-
-
-
-
-
-
-
                     </TableRow>
 
                     <TableRow
@@ -109,11 +100,9 @@
                         <com.example.ramon.colegiopugsm.JustifyTextView
                             android:layout_width="331dp"
                             android:layout_height="wrap_content"
-                            android:id="@+id/premiumCreditsDescTextView"
+                            android:id="@+id/descTextView"
                             android:text="@string/institucion_string"
                             android:layout_marginTop="8dip"
-                            android:layout_marginLeft="7dp"
-                            android:paddingLeft="5dp"
 
                             />
 

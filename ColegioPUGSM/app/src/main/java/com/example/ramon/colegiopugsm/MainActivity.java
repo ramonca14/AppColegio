@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //para el logo del bar;
         getSupportActionBar().setLogo(R.mipmap.ic_launcher_round);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
-//toolbar.setTitleTextAppearance(this, R.style.TextAppearance_AppCompat_Display1);
+//toolbar.setTitleTextAppearance(this, R.style.AppTheme_AppBarOverlay);
 
         //para color de titulo
        // toolbar.setTitleTextColor(getResources().getColor(R.color.colorTitulo));
@@ -121,7 +121,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.nav_modal) {
             fm.beginTransaction().replace(R.id.idcontenido,new ModalidadesFragment()).commit();
 
+        }else if (id == R.id.nav_staff) {
+            fm.beginTransaction().replace(R.id.idcontenido,new Staff_Fragment()).commit();
+
         }
+
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
