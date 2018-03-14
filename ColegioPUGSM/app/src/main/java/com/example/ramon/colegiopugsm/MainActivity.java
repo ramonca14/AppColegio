@@ -1,6 +1,10 @@
 package com.example.ramon.colegiopugsm;
+import android.annotation.SuppressLint;
 import android.app.ListActivity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -11,9 +15,15 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.SpannableString;
+import android.text.style.ClickableSpan;
+import android.util.Log;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -25,6 +35,7 @@ import static com.example.ramon.colegiopugsm.R.string.action_settings;
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
 {
     public static String weburl = "http://cpugsm.comunidadeduar.com.ar";
+    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,13 +43,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         //para el logo del bar;
@@ -46,12 +55,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 //toolbar.setTitleTextAppearance(this, R.style.AppTheme_AppBarOverlay);
 
+
+
+
+
+
+
         //para color de titulo
        // toolbar.setTitleTextColor(getResources().getColor(R.color.colorTitulo));
         BottomNavigationView bottomNavigationView;
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.BottonNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.colegioItem);
-        Toast.makeText(this, "Cargando....", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Cargando....espere por favor", Toast.LENGTH_LONG).show();
         WebViewFragment webViewFragment = new WebViewFragment();
         getSupportFragmentManager().beginTransaction().add(R.id.idcontenido, webViewFragment).commit();
 
@@ -59,6 +74,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public boolean onNavigationItemSelected (@NonNull MenuItem item) {
                 //esto se ejecuta si se selecciona un item del menu inferior
+
+
+
 
                 if (item.getItemId()==R.id.webItem){
                     weburl = "http://cpugsm.unlar.edu.ar";
@@ -77,9 +95,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     return true;
 
                 }else if (item.getItemId()==R.id.Itemcalendario){
-                    weburl = "http://cpugsm.unlar.edu.ar/descarga/calendario_academico_2017.pdf";
-                    WebViewFragment webViewFragment = new WebViewFragment();
-                    getSupportFragmentManager().beginTransaction().replace(R.id.idcontenido, webViewFragment).commit();
+
+                    WebViewPdf webViewPdf= new WebViewPdf();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.idcontenido, webViewPdf).commit();
                     return true;
 
                 }else if (item.getItemId()==R.id.Itemcontacto){
@@ -101,6 +119,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
+    @SuppressLint("WrongViewCast")
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -109,6 +128,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
         FragmentManager fm = getSupportFragmentManager();
         if (id == R.id.nav_ins) {
+
+
             fm.beginTransaction().replace(R.id.idcontenido,new InstitucionFragment()).commit();
            // Toast.makeText(this, "Informacion de la Institucion", Toast.LENGTH_LONG).show();
 

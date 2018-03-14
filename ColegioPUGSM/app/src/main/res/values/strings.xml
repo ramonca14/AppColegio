@@ -1,4 +1,35 @@
 <resources>
+  <string name="institucion_string">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:gray;background-color:#d9e7db;">
+  El Colegio  Secundario  Provincial /n
+
+         La Institución fue creada por el  Decreto Provincial Nº 2.997/79, con el nombre de “Colegio Secundario Provincial”, y desde su instancia fundacional se enfocó en una problemática que aún es de rigurosa actualidad: la articulación de los estudios del nivel medio con el universitario, brindado la necesaria preparación  y competencias para el cursado de estos últimos.
+     Inserto en la órbita jurisdiccional  de la Secretaría de Cultura y Educación de la Provincia de la Rioja, el Colegio inició sus actividades el día 7 de abril del año 1980, con la  misión de formar a los  adolescentes, de la ciudad Capital, y también del  Interior provincial a quienes se les brindaba alojamiento en el internado con servicio de comedor incluido, posibilitándoles  de tal modo el acceso a una educación de alto nivel pedagógico.
+
+ “El Colegio Universitario Provincial de La Rioja”
+
+                   Por  Ley   Provincial  Nº  4.045/81 se dispone el cambio de la denominación  de  “Colegio Secundario Provincial” por  la de “Colegio Universitario Provincial de La Rioja”, con apoyo  financiero de la  Universidad Provincial de La Rioja, empero  subsistía  la dependencia  académica  de la  Secretaría de Cultura y Educación de la Provincia de la Rioja.
+         El  Plan de  Estudios vigente en la época  articulaba un Ciclo Preparatorio, de 2 (dos)  años de duración; un Ciclo Formativo de (4) cuatro años; y  un Ciclo Orientado de 2(dos) años. Cumplimentando los mismos, el Alumno egresaba con el Título de Bachiller.
+
+ Colegio Universitario Gral. San Martín
+         Mediante la  Ley Provincial  Ley Nº 4.130/82, el Colegio se transfiere a la Universidad Provincial de La Rioja, con una nueva denominación: Colegio Universitario “Gral. San Martín”, siendo los estudios de nivel preuniversitario, según lo puntualizado por  el Lic. Ramón Díaz en su  “Historia de la Universidad de La Rioja”,  (Pág. XVI, Edit. Eudelar, Año 1997).
+         Por la misma Ley Provincial Nº 4.130/82 se  dispuso que la institución dependa jurisdiccionalmente  del Rectorado de la U.P.L.R, y asimismo, que el Colegio adopte la modalidad de Bachillerato Común, estructurado  en un Ciclo Básico de tres (3) años y un Ciclo Superior de dos (2) años.
+ El Colegio Pre-Universitario en la Ciudad Universitaria de la Ciencia y de la Técnica.
+         La “Ciudad Universitaria de la Ciencia y de la Técnica” de la Universidad Nacional de La Rioja fue inaugurada el día 11 de diciembre del año 1998 y posee más de 58.000 m2 de infraestructura, que se distribuyen en sectores destinados a la Gestión, Administración, Docencia, Investigación y Extensiónademás de la enseñanza Pre-Universitaria, a través del “Colegio Pre- Universitario Gral. San Martín”.
+         El Colegio cuenta con modernas y confortables instalaciones, que se distribuyen en Cinco Módulos, que fueron construidos según exigencias de estándares  internacionales, y un Salón de Usos Múltiples, con capacidad para más de  setecientas  personas.
+         Tres de los Módulos están destinados al dictado de clases y el cuarto Módulo es apto para la realización de  las actividades propias de los Espacios Curriculares Optativos, con Aulas de Laboratorios de Biología, Informática, Pintura, Escultura, Nutrición, Folklore, Sala de Audio, etc.
+         El restante Módulo está destinado a las oficinas de la Dirección, Vice-Dirección, Sala de Profesores,  Biblioteca, y Oficinas Administrativas.
+
+
+ </body>
+</html>
+]]>
+</string>
+
+
     <string name="app_name">C.P.U.G.S.M.</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -53,9 +84,9 @@ Justicia
 Paz Social</string>
 
 
-    <string name="institucion_string">
+    <string name="inst">
 
-        El Colegio  Secundario  Provincial
+        El Colegio  Secundario  Provincial /n
 
          La Institución fue creada por el  Decreto Provincial Nº 2.997/79, con el nombre de “Colegio Secundario Provincial”, y desde su instancia fundacional se enfocó en una problemática que aún es de rigurosa actualidad: la articulación de los estudios del nivel medio con el universitario, brindado la necesaria preparación  y competencias para el cursado de estos últimos.
      Inserto en la órbita jurisdiccional  de la Secretaría de Cultura y Educación de la Provincia de la Rioja, el Colegio inició sus actividades el día 7 de abril del año 1980, con la  misión de formar a los  adolescentes, de la ciudad Capital, y también del  Interior provincial a quienes se les brindaba alojamiento en el internado con servicio de comedor incluido, posibilitándoles  de tal modo el acceso a una educación de alto nivel pedagógico.
@@ -79,4 +110,5 @@ Paz Social</string>
     <string name="modalidades_string">“El Maestro Mayor de Obras estará capacitado, de acuerdo a las actividades que se desarrollan en el Perfil Profesional, para: detectar y analizar las necesidades de un cliente y elaborar el programa de necesidades, elaborar soluciones constructivas, técnicas/estéticas, espaciales y económicas para un programa de necesidades determinado, evaluar y definir las soluciones técnico constructivas más apropiadas, gestionar la planificación y documentación del proceso constructivo; dirigir, gestionar y administrar la ejecución de procesos constructivos y comunicar a terceros acontecimientos que surjan en el mismo; administrar procesos de compra y venta, y asesorar técnicamente sobre productos, servicios o procesos constructivos y prestar servicios de evaluación técnica; esencialmente de manera independiente o participando de un equipo de trabajo.
 </string>
     <string name="title_activity_list">Contactos</string>
+    <string name="test">hofahfoasdhfoashdofahsdofhasdofhasdhfoadsh</string>
 </resources>
