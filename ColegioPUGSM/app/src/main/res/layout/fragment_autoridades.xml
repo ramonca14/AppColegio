@@ -10,117 +10,167 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorFondoContenido"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        >
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="@dimen/dim_cargo">
+            android:layout_marginStart="12sp"
+            android:layout_marginEnd="@dimen/dim_cargo"
+
+            >
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:foregroundGravity="center"
-                android:gravity="center">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:textSize="@dimen/dim_titulo"
-                        android:text="Autoridades"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="@dimen/dim_cargo"
-                android:textStyle="bold"
-                android:layout_gravity="start"/>
+                android:layout_height="wrap_content"
+android:paddingTop="@dimen/dim_cargo"
+                android:gravity="center"
+                >
+
                 <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Director"
-                    android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold"
-                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"/>
-
-                <ImageView
-                    android:id="@+id/imageView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
-                    android:src="@mipmap/ic_director" />
-
+                    android:gravity="center"
+                    android:text="Autoridades"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="@dimen/dim_titulo" />
+            </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:gravity="center">
+                >
 
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/nombre_director"
-                    android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold" />
             </TableRow>
 
 
             <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="5dp"
-                />
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:text="Director:"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
                 android:textSize="@dimen/dim_cargo"
-                android:textStyle="bold"
-                android:layout_gravity="start">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Subdirectora"
-                    android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold"
-                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"/> </TableRow>
-
-            <ImageView
-                android:id="@+id/imageView3"
+                android:textStyle="bold" />
+            </TableRow>
+            <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:src="@mipmap/ic_subdirector" />
+android:gravity="center"
+                android:foregroundGravity="clip_vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/nombre_director"
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                android:textSize="@dimen/dim_cargo"
+                />
+            </TableRow>
 
 
             <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:gravity="center">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+
+                    />
+            </TableRow>
 
 
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Vice-Directora:"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                    android:textSize="@dimen/dim_cargo"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:foregroundGravity="clip_vertical" >
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/nombre_subdirector"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
                     android:textSize="@dimen/dim_cargo"
-                    android:textStyle="bold" />
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+
+                    />
             </TableRow>
 
 
             <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="5dp"
-                />
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
 
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Consejo de Enseñanza PreUniversitaria (C.E.P.U)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                    android:textSize="@dimen/dim_cargo"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:foregroundGravity="clip_vertical" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Presidente Ing. Gaspanello José"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                    android:textSize="@dimen/dim_cargo"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:foregroundGravity="clip_vertical" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Secretario Adm.: Simonazzi Cristian David"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                    android:textSize="@dimen/dim_cargo"
+                    />
+            </TableRow>
         </TableLayout>
     </android.support.v4.widget.NestedScrollView>
 </LinearLayout>

@@ -9,7 +9,7 @@
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="text_margin">16dp</dimen>
 
-    <dimen name="dim_titulo">20sp</dimen>
+    <dimen name="dim_titulo">25sp</dimen>
     <dimen name="dim_subtitulo">18sp</dimen>
-    <dimen name="dim_cargo">14sp</dimen>
+    <dimen name="dim_cargo">13sp</dimen>
 </resources>

@@ -41,8 +41,9 @@
 
     <string name="llamartext">llamar al Colegio</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="nombre_director">Prof. Lic. Roberto Contreras </string>
-    <string name="nombre_subdirector">Prof. Mónica Cappettini </string>
+
+    <string name="nombre_director">Prof. Lic. Contreras Roberto Antonio</string>
+    <string name="nombre_subdirector">Prof. Cappettini Mónica </string>
 
 
     <string name="appbar_scrolling_view_behavior">SCROLLING VIEW BEHAVIOR </string>
