@@ -23,8 +23,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.ramon.colegiopugsm.activity.CustomListViewActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +48,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setSupportActionBar(toolbar);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -54,15 +56,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         getSupportActionBar().setLogo(R.mipmap.ic_launcher_round);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 //toolbar.setTitleTextAppearance(this, R.style.AppTheme_AppBarOverlay);
-
-
-
-
-
-
-
         //para color de titulo
        // toolbar.setTitleTextColor(getResources().getColor(R.color.colorTitulo));
+
+
+
         BottomNavigationView bottomNavigationView;
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.BottonNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.colegioItem);
@@ -101,11 +99,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     return true;
 
                 }else if (item.getItemId()==R.id.Itemcontacto){
-                    //weburl = "http://cpugsm.unlar.edu.ar";
-                    //WebViewFragment webViewFragment = new WebViewFragment();
 
-                  ContactosFragment viewContactosFragment = new ContactosFragment();
-                  getSupportFragmentManager().beginTransaction().replace(R.id.idcontenido,  viewContactosFragment).commit();
+                    Intent intent = new Intent(MainActivity.this, CustomListViewActivity.class);
+                    startActivity(intent);
+
+                 //ContactosFragment viewContactosFragment = new ContactosFragment();
+                 //getSupportFragmentManager().beginTransaction().replace(R.id.idcontenido,  viewContactosFragment).commit();
 
                    // Intent intent = new Intent(MainActivity.this, ListActivity.class);
                 //startActivity(intent);
@@ -116,6 +115,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
 
         });
+
+
 
     }
 
@@ -128,8 +129,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
         FragmentManager fm = getSupportFragmentManager();
         if (id == R.id.nav_ins) {
-
-
             fm.beginTransaction().replace(R.id.idcontenido,new InstitucionFragment()).commit();
            // Toast.makeText(this, "Informacion de la Institucion", Toast.LENGTH_LONG).show();
 
@@ -139,8 +138,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.nav_proyect) {
             fm.beginTransaction().replace(R.id.idcontenido,new ProyectosFragment()).commit();
 
-        } else if (id == R.id.nav_modal) {
-            fm.beginTransaction().replace(R.id.idcontenido,new ModalidadesFragment()).commit();
+        } else if (id == R.id.nav_maestro) {
+            fm.beginTransaction().replace(R.id.idcontenido,new ModalidadMaestroFragment()).commit();
 
         }else if (id == R.id.nav_staff) {
             fm.beginTransaction().replace(R.id.idcontenido,new Staff_Fragment()).commit();

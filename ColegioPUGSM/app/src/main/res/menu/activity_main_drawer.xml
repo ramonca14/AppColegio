@@ -17,13 +17,30 @@
             android:icon="@drawable/ic_proyectos"
             android:title="Proyectos" />
         <item
-            android:id="@+id/nav_modal"
-            android:icon="@drawable/ic_modalidades"
-            android:title="Modalidades" />
-        <item
             android:id="@+id/nav_staff"
             android:icon="@drawable/ic_staff"
             android:title="Staff" />
+
+
+        <item android:title="Modalidades">
+            <menu>
+                <item
+                    android:id="@+id/nav_maestro"
+                    android:icon="@drawable/ic_modalidades"
+                    android:title="Maestro Mayor de Obras" />
+                <item
+                    android:id="@+id/nav_csnaturales"
+                    android:icon="@drawable/ic_modalidades"
+                    android:title="Ciencias Naturales" />
+                <item
+                    android:id="@+id/construccion"
+                    android:icon="@drawable/ic_modalidades"
+                    android:title="Gestion y Administración de Empresas" />
+            </menu>
+        </item>
+
+
+
 
     </group>
 </menu>

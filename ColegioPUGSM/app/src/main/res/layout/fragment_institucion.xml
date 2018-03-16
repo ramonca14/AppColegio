@@ -1,26 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ramon.colegiopugsm.InstitucionFragment">
 
-    android:background="@color/colorFondoContenido"
-
-    >
-
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:src="@mipmap/ic_colegio" />
-
-    <WebView
-        android:background="@color/colorFondoContenido"
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="12dp"
-        android:id="@+id/wView"/>
+        android:background="@color/colorFondoContenido"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dim_cargo"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dim_cargo"
+                tools:ignore="UselessParent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:gravity="center">
+
+                    <FrameLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        tools:ignore="UselessParent">
+
+                        <ImageView
+                            android:layout_width="180sp"
+                            android:layout_height="120sp"
+                            android:layout_gravity="top|center"
+                            android:background="@mipmap/ic_colegio"
+                            android:scaleType="centerCrop" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Institución"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="@dimen/dim_titulo" />
+                </TableRow>
+
+                <LinearLayout android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/dim_cargo"
+                        android:textStyle="bold">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Reseña Histórica"
+                            android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark"
+                            android:textSize="@dimen/dim_subtitulo"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/txtinst"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+android:textAlignment="inherit"
+                            android:textSize="14sp"
+                             />
+                    </TableRow>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
 </LinearLayout>
+
+
+

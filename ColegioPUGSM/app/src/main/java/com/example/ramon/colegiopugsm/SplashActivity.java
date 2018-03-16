@@ -12,7 +12,7 @@ import java.util.TimerTask;
 
 public class SplashActivity extends AppCompatActivity {
     private static final long SPLASH_SCREEN_DELAY = 700;
-    private Typeface LinLibertineA;
+    private Typeface LinLibertineB;
 
     private TextView texto1;
 
@@ -20,10 +20,10 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-       this.LinLibertineA = Typeface.createFromAsset(getAssets(), "fuentes/LinLibertineB.ttf");
+       this.LinLibertineB = Typeface.createFromAsset(getAssets(), "fuentes/LinLibertineB.ttf");
 
        texto1 = (TextView)findViewById(R.id.sp_txt);
-       texto1.setTypeface(LinLibertineA);
+       texto1.setTypeface(LinLibertineB);
 
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);

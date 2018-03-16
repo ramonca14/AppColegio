@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 public class WebViewPdf extends Fragment {
     private WebView webView;
@@ -38,13 +39,13 @@ public class WebViewPdf extends Fragment {
         });
 
         //Url Ejemplo:
-        String pdf = "http://cpugsm.unlar.edu.ar/descarga/calendario_academico_2017.pdf";
+        String pdf = "https://drive.google.com/file/d/1O_H3VvaGV2F-DDqcyxXXI9G_9qudnppk/view?usp=sharing";
         //Carga url de .PDF en WebView  mediante Google Drive Viewer.
-        webView.loadUrl("http://drive.google.com/viewerng/viewer?embedded=true&url=" + pdf);
+
+        webView.loadUrl(pdf);
 
 
         //webView.loadUrl(MainActivity.weburl);
-
 
 
 

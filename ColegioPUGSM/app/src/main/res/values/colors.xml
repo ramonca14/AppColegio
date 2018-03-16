@@ -4,7 +4,8 @@
     <color name="colorPrimary">#115004</color>
     <color name="colorPrimaryDark">#105103</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorFondoContenido">#078e7f</color>
+    <color name="colorFondoContenido">#08b7a3</color>
+
     <color name="colorTitulo">#034d11</color>
     <color name="colorIconos">#165409</color>
     <color name="colorBarra">#ffffff</color>
