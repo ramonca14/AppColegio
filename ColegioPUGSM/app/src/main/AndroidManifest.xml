@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.ramon.colegiopugsm">
+    package="colegio"
+    android:debuggable="false"
+    tools:ignore="HardcodedDebugMode">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -13,9 +15,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="AllowBackup">
+        tools:ignore="AllowBackup"
+        android:versionCode ="123"
+        android:versionName="version 1.0"
 
-        <activity android:name=".SplashActivity"
+        >
+
+        <activity android:name="colegio.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,12 +37,12 @@
 
         </activity>
         <activity
-            android:name=".activity.CustomListViewActivity"
+            android:name="colegio.activity.CustomListViewActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ramon.colegiopugsm.MainActivity" />
+                android:value="colegio.MainActivity" />
         </activity>
 
 

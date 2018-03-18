@@ -1,59 +1,51 @@
 <resources>
-  <string name="institucion_string">
-<![CDATA[
-<html>
- <head></head>
- <body style="text-align:justify;color:gray;background-color:#d9e7db;">
- <p><b> “El Colegio  Secundario  Provincial”</b></p>
-  <p> <em>Creado por Decreto Provincial Nº 2.997/79,
+
+<string name="institucionstr1">
+Creado por Decreto Provincial Nº 2.997/79,
           se asigna el nombre de “Colegio Secundario
           Provincial”,  desde su instancia fundacional
           se enfocó en:la articulación de los estudios
-          del nivel medio con el universitario.
-        </em>
-</p>
+          del nivel medio con el universitario.- -  - - - - - - -- - - - - -
 
- <p><b>
- “El Colegio Universitario Provincial de La Rioja”</b></p>
-
-
-                 <p><em>  Por  Ley   Provincial  Nº  4.045/81 cambia la
-                   denominación por  la de “Colegio Universitario
-                   Provincial de La Rioja”, con apoyo  financiero
-                   de  la  Universidad Provin</n>cial de La Rioja, con
+ </string>
+<string name="institucionstr2">
+                   Por  Ley   Provincial  Nº  4.045/81 cambia la
+                   denominación por  la de “Colegio UniversitarioProvincial de La Rioja”, con apoyo
+                   financiero de  la  Universidad Provincial de La Rioja, con
                    dependencia académica con Secretaría de Cultura
                    y Educación de la Provincia de la Rioja.
          El  Plan de  Estudios vigente en la época  articulaba un Ciclo Preparatorio, de 2 (dos)  años de duración;
-         un Ciclo Formativo de (4) cuatro años; y  un Ciclo Orientado de 2(dos) años. Cumplimentando los mismos, el alumno egresaba con
-         el Título de Bachiller.
-</em></p>
+         un Ciclo Formativo de (4) cuatro años; y  un ciclo orientado de 2(dos) años, el alumno egresaba con
+         el Título de Bachiller.- -  - - -
+
+</string>
 
 
 
 
+    <string name="institucionstr3">
+         Mediante la  Ley Provincial  Ley Nº 4.130/82, el Colegio se transfiere a la Universidad Provincial de La Rioja,
+        con una nueva denominación: Colegio Universitario “Gral. San Martín”, siendo los estudios de nivel preuniversitario,
+        según lo puntualizado por  el Lic. Ramón Díaz en su  “Historia de la Universidad de La Rioja”.
+         Por esa misma ley se  dispuso que la institución dependa jurisdiccionalmente  del Rectorado de la U.P.L.R,
+        y asimismo, que el Colegio adopte la modalidad de Bachillerato Común, de un Ciclo Básico de tres (3) años y un Ciclo
+        Superior de dos (2) años.
+</string>
 
- <p><b> “Colegio Universitario Gral. San Martín”</b></p>
-  <p>
-         Mediante la  Ley Provincial  Ley Nº 4.130/82, el Colegio se transfiere a la Universidad Provincial de La Rioja, con una nueva denominación: Colegio Universitario “Gral. San Martín”, siendo los estudios de nivel preuniversitario, según lo puntualizado por  el Lic. Ramón Díaz en su  “Historia de la Universidad de La Rioja”,  (Pág. XVI, Edit. Eudelar, Año 1997).
-         Por la misma Ley Provincial Nº 4.130/82 se  dispuso que la institución dependa jurisdiccionalmente  del Rectorado de la U.P.L.R, y asimismo, que el Colegio adopte la modalidad de Bachillerato Común, estructurado  en un Ciclo Básico de tres (3) años y un Ciclo Superior de dos (2) años.
- </p>
+<string name="institucionstr4">
 
- <p><b>
- “El Colegio en la Ciudad Universitaria de la Ciencia y de la Técnica”</b></p>
-       <p> <em>   La “Ciudad Universitaria de la Ciencia y de la Técnica” de la Universidad Nacional de La Rioja
+
+
+       La “Ciudad Universitaria de la Ciencia y de la Técnica” de la Universidad Nacional de La Rioja
        inaugurada el día 11 de diciembre del año 1998, posee más de 58.000 m2 de infraestructura,
-       se distribuyen en sectores destinados a la Gestión, Administración, Docencia, Investigación y Extensiónademás de la enseñanza Pre-Universitaria,
-        a través del “Colegio Pre- Universitario Gral. San Martín”.
-        El Colegio con modernas y confortables instalaciones, de Cinco Módulos, construidos según
+       destinados a la Gestión, Administración, Docencia, Investigación y
+    Extensión además de la enseñanza Pre-Universitaria, a través del “Colegio Pre- Universitario Gral. San Martín”.
+        El Colegio con modernas y confortables instalaciones, construidas según
         exigencias de estándares  internacionales, y un Salón de Usos Múltiples, con capacidad para más de  setecientas  personas.
-         Tres de los Módulos están destinados al dictado de clases y el cuarto Módulo es apto para la realización de  las actividades propias
-         de los Espacios Curriculares Optativos, con Aulas de Laboratorios de Biología, Informática, Pintura, Escultura, Nutrición, Folklore, Sala de Audio, etc.
-         </em></p>
+         Tres de los Módulos destinados al dictado de clases y el cuarto Módulo es apto para la realización de  las actividades propias
+         de los Espacios Curriculares Optativos, con Laboratorios de Biología, Informática, Pintura, Escultura, Nutrición,
+    Folklore.----------------------------------
 
-
- </body>
-</html>
-]]>
 </string>
 
 
@@ -112,53 +104,27 @@ Justicia
 Paz Social</string>
 
 
-    <string name="institucion">
-        El Colegio  Secundario  Provincial fué creado por Decreto Provincial Nº 2.997/79, con el nombre de “Colegio Secundario Provincial”,
-        y desde su instancia fundacional se enfocó en una problemática:
-        la articulación de los estudios del nivel medio con el universitario.
-     Inserto en la órbita jurisdiccional  de la Secretaría de Cultura y Educación de la Provincia de la Rioja,
-        el Colegio inició sus actividades el día 7 de abril del año 1980, con la  misión de formar a los  adolescentes,
-        a quienes se les brindaba alojamiento en el internado con servicio de comedor incluido,
-        posibilitándoles  de tal modo el acceso a una educación de alto nivel pedagógico.
-    </string>
-    <string name="institucion1">
-Por  Ley   Provincial  Nº  4.045/81 pasa a llamarse “El Colegio Universitario Provincial de La Rioja”
- con apoyo  financiero de la  Universidad Provincial de La Rioja, empero  subsistía  la dependencia  académica  de la
-        Secretaría de Cultura y Educación de la Provincia de la Rioja.
-         El  Plan de  Estudios vigente en la época  articulaba un Ciclo Preparatorio, de 2 (dos)  años de duración; un Ciclo Formativo de (4) cuatro años; y  un Ciclo Orientado de 2(dos) años. Cumplimentando los mismos, el Alumno egresaba con el Título de Bachiller.
- Colegio Universitario Gral. San Martín
-         Mediante la  Ley Provincial  Ley Nº 4.130/82, el Colegio se transfiere a la Universidad Provincial de La Rioja,
-        con una nueva denominación: Colegio Universitario “Gral. San Martín”, siendo los estudios de nivel preuniversitario, s
-        egún lo puntualizado por  el Lic. Ramón Díaz en su  “Historia de la Universidad de La Rioja”.
-         Por la misma Ley Provincial Nº 4.130/82 se  dispuso que la institución dependa jurisdiccionalmente  del Rectorado de la U.P.L.R, y asimismo, que el Colegio adopte la modalidad de Bachillerato Común, estructurado  en un Ciclo Básico de tres (3) años y un Ciclo Superior de dos (2) años.
- El Colegio Pre-Universitario en la Ciudad Universitaria de la Ciencia y de la Técnica.
+
+    <string name="modalidadmaestro_string" formatted="true">El Maestro Mayor de Obras estará capacitado, para:
+        detectar y analizar las necesidades de un cliente, elaborar el programa de necesidades, elaborar soluciones
+        constructivas, técnicas/estéticas, espaciales y económicas para un programa de necesidades determinado,
+        evaluar y definir las soluciones técnico constructivas más apropiadas, gestionar la planificación y
+        documentación del proceso constructivo; dirigir, gestionar y administrar la ejecución de procesos constructivos
+        y comunicar a terceros acontecimientos que surjan en el mismo. Administrar procesos de compra y venta, y asesorar
+        técnicamente sobre productos, servicios o procesos constructivos y prestar servicios de evaluación técnica;
+        esencialmente de manera independiente o participando de un equipo de trabajo.---------------------------
+</string>
+    <string name="modalidadciencias_string" formatted="true">
+    La formación especifica en la orientacion en ciencias naturales deberá garantizar que los estudiantes logren ampliar y profundizar la alfabetización cientifica ya iniciada en el ciclo básico.
+    La enseñanza de las ciencias naturales en la escuela secundaria propicia una formación integral: contribuye a potenciar las habilidades intelectuales, orienta a los alumnos hacia la comprensión, la explicación objetiva y cientifica de los diversos hechos, fenomenos y seres naturales y favorece el desarrollo de la creatividad y la participación responsable.
 
 </string>
-    <string name="institucion2">
-       La “Ciudad Universitaria de la Ciencia y de la Técnica” de la Universidad Nacional de La Rioja fue inaugurada
-        el día 11 de diciembre del año 1998 y posee más de 58.000 m2 de infraestructura, que se distribuyen en sectores
-        destinados a la Gestión, Administración, Docencia, Investigación y Extensiónademás de la enseñanza Pre-Universitaria,
-        a través del “Colegio Pre- Universitario Gral. San Martín”.
-         El Colegio cuenta con modernas y confortables instalaciones, que se distribuyen en Cinco Módulos, que fueron construidos
-        según exigencias de estándares  internacionales, y un Salón de Usos Múltiples, con capacidad para más de  setecientas  personas.
-         Tres de los Módulos están destinados al dictado de clases y el cuarto Módulo es apto para la realización de  las actividades
-        propias de los Espacios Curriculares Optativos, con Aulas de Laboratorios de Biología, Informática, Pintura, Escultura,
-        Nutrición, Folklore, Sala de Audio, entre otras.
-         El restante Módulo está destinado a las oficinas de la Dirección, Vice-Dirección, Sala de Profesores,
-        Biblioteca, y Oficinas Administrativas.
-
+    <string name="modalidadgestion_string" formatted="true">
+  El técnico en gestion y Administración de las organizaciones, esta capacitado para ejecutar las operaciones:
+* Comerciales, financieras y administrativo contable de la organización.
+* Elaborar, controlar y registrar el flujo de información.
+* Organizar y planificar los recursos requeridos para desarrollar las actividades interactuando con el entorno y participando en la toma de decisiones relacionadas con ellas.
 </string>
-
-
-    <string name="modalidadmaestro_string" formatted="true">
-            “El Maestro Mayor de Obras estará capacitado, para: detectar y analizar las necesidades de un cliente, elaborar el programa de necesidades, elaborar soluciones constructivas, técnicas/estéticas,
-        espaciales y económicas para un programa de necesidades determinado, evaluar y definir las soluciones técnico constructivas más apropiadas,
-        gestionar la planificación y documentación del proceso constructivo; dirigir, gestionar y administrar la ejecución de procesos constructivos
-        y comunicar a terceros acontecimientos que surjan en el mismo;
-        administrar procesos de compra y venta, y asesorar técnicamente sobre productos, servicios o procesos constructivos y
-        prestar servicios de evaluación técnica; esencialmente de manera independiente o participando de un equipo de trabajo.
-</string>
-
 
     <string name="title_activity_list">Contactos</string>
     <string name="test">hofahfoasdhfoashdofahsdofhasdofhasdhfoadsh</string>

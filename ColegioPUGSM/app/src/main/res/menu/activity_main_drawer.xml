@@ -33,7 +33,7 @@
                     android:icon="@drawable/ic_modalidades"
                     android:title="Ciencias Naturales" />
                 <item
-                    android:id="@+id/construccion"
+                    android:id="@+id/nav_gestion"
                     android:icon="@drawable/ic_modalidades"
                     android:title="Gestion y Administración de Empresas" />
             </menu>

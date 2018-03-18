@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@mipmap/ic_fondoinicio"
     android:orientation="vertical"
-    tools:context=".SplashActivity"
+    tools:context="colegio.SplashActivity"
     >
 
     <LinearLayout
